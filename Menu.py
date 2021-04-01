@@ -2,10 +2,12 @@ from tkinter import *
 
 def clicked():
     lbl.configure(text="Hачало игры", font=("Ariak Bold", 50))
+    open (r'C:\Users\Волчесей Волчезцев\Desktop\Projects\Space-Emulation\game.py')
 
 window = Tk()
 window.title("Space emulation")
 window.geometry('900x500')
+
 
 lbl = Label(window, text="Space emulation", font=("Ariak Bold", 50))
 # Font шрифт, число размер.
