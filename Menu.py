@@ -2,7 +2,6 @@ from tkinter import *
 
 def clicked():
     lbl.configure(text="Hачало игры", font=("Ariak Bold", 50))
-    open (r'C:\Users\Волчесей Волчезцев\Desktop\Projects\Space-Emulation\game.py')
 
 window = Tk()
 window.title("Space emulation")
