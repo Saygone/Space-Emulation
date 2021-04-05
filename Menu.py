@@ -20,5 +20,5 @@ btn1.place(x = 450, y = 250, anchor=CENTER)
 btn2.place(x = 450, y = 295, anchor=CENTER)
 btn3.place(x = 450, y = 340, anchor=CENTER)
 
-
+# test
 window.mainloop()
