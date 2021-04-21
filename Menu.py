@@ -3,16 +3,13 @@ from tkinter import *
 def clicked():
     exec(open('game.py').read())
 
-
 def clicked_info():
     exec(open('info.py').read())
-
 
 
 window = Tk()
 window.title("Space emulation")
 window.geometry('900x500')
-
 
 lbl = Label(window, text="Space emulation", font=("Ariak Bold", 50))
 # Font шрифт, число размер.
