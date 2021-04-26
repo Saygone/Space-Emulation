@@ -1,3 +1,4 @@
+import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
 
@@ -13,11 +14,11 @@ window = Tk()
 window.title("Space emulation")
 window.geometry('900x500')
 
-canvas = Canvas(window,width=900, height=500)
-image = ImageTk.PhotoImage(Image.open("Wallpaper.jpg"))
-
-canvas.create_image(0,0,anchor=NW, image=image)
-canvas.pack
+canvas = tkinter.Canvas(window, height=900, width=900)
+image = Image.open("Wallpaper.jpg")
+photo = ImageTk.PhotoImage(image)
+image = canvas.create_image(0, 0, anchor='nw', image=photo)
+canvas.place(x=450, y=250, anchor=CENTER)
 
 lbl = Label(window, text="Space emulation", font=("Ariak Bold", 50))
 # Font шрифт, число размер.
