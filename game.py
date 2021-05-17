@@ -1,12 +1,18 @@
 import turtle
 from turtle import Turtle, Screen
+import tkinter
 from tkinter import*
 
 wn = turtle.Screen()
-wn.title("Example Window")
+wn.title("Solar system")
 wn.setup(1.0, 1.0)
 
 turtle.bgcolor("black")
+
+wn = Tk()
+wn.title("Справка")
+wn.geometry('370x200')
+
 
 
 
@@ -30,7 +36,7 @@ def setup_planets(planets):
         dictionary = planets[planet]
         turtle = Turtle(shape='circle')
 
-        turtle.speed("fastest")  # speed controlled elsewhere, disable here
+        turtle.speed("fastest")
         turtle.shapesize(dictionary['diameter'])
         turtle.color(dictionary['color'])
         turtle.pu()
