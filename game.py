@@ -6,11 +6,14 @@ wn = turtle.Screen()
 wn.title("Example Window")
 wn.setup(1.0, 1.0)
 
+turtle.bgcolor("black")
+
 
 
 """Анимация движения планет"""
 
 planets = {
+    'sun': {'diameter': 4, 'orbit': 0, 'speed': 0, 'color': 'yellow'},
     'mercury': {'diameter': 0.383, 'orbit': 58, 'speed': 7.5, 'color': 'gray'},
     'venus': {'diameter': 0.949, 'orbit': 108, 'speed': 3, 'color': 'yellow'},
     'earth': {'diameter': 1.0, 'orbit': 150, 'speed': 2, 'color': 'blue'},
