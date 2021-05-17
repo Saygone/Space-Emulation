@@ -20,15 +20,15 @@ wn.geometry('370x200')
 
 planets = {
     'sun': {'diameter': 4, 'orbit': 0, 'speed': 0, 'color': 'yellow'},
-    'mercury': {'diameter': 0.383, 'orbit': 58, 'speed': 7.5, 'color': 'gray'},
-    'venus': {'diameter': 0.949, 'orbit': 108, 'speed': 3, 'color': 'yellow'},
-    'earth': {'diameter': 1.0, 'orbit': 150, 'speed': 2, 'color': 'blue'},
-    'mars': {'diameter': 0.532, 'orbit': 228, 'speed': 1, 'color': 'red'},
-    'Jupiter': {'diameter': 3, 'orbit': 280, 'speed': 0.75, 'color': 'orange'},
-    'Saturn': {'diameter': 2, 'orbit': 340, 'speed': 0.5, 'color': 'Yellow'},
-    'Uranus': {'diameter': 1.0, 'orbit': 390, 'speed': 0.3, 'color': 'blue'},
-    'Neptune': {'diameter': 1.0, 'orbit': 440, 'speed': 0.2, 'color': 'violet'},
-    'Pluto': {'diameter': 0.2, 'orbit': 480, 'speed': 0.1, 'color': 'grey'},
+    'mercury': {'diameter': 0.383, 'orbit': 58, 'speed': 4, 'color': 'gray'},
+    'venus': {'diameter': 0.949, 'orbit': 108, 'speed': 1.6, 'color': 'yellow'},
+    'earth': {'diameter': 1.0, 'orbit': 150, 'speed': 1, 'color': 'blue'},
+    'mars': {'diameter': 0.532, 'orbit': 208, 'speed': 0.5, 'color': 'red'},
+    'Jupiter': {'diameter': 3, 'orbit': 250, 'speed': 0.1, 'color': 'orange'},
+    'Saturn': {'diameter': 2, 'orbit': 310, 'speed': 0.03, 'color': 'Yellow'},
+    'Uranus': {'diameter': 1.0, 'orbit': 360, 'speed': 0.01, 'color': 'blue'},
+    'Neptune': {'diameter': 1.0, 'orbit': 420, 'speed': 0.006, 'color': 'violet'},
+    'Pluto': {'diameter': 0.2, 'orbit': 460, 'speed': 0.004, 'color': 'grey'},
 }
 
 def setup_planets(planets):
