@@ -1,5 +1,12 @@
+import turtle
 from turtle import Turtle, Screen
 from tkinter import*
+
+wn = turtle.Screen()
+wn.title("Example Window")
+wn.setup(1.0, 1.0)
+
+
 
 """Анимация движения планет"""
 
@@ -39,7 +46,6 @@ def revolve():
     screen.ontimer(revolve, 50)
 
 screen = Screen()
-
 setup_planets(planets)
-
 screen.exitonclick()
+wn.mainloop()
