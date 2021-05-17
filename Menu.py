@@ -4,7 +4,7 @@ from PIL import Image, ImageTk
 
 
 def clicked():
-    exec(open('game.py').read())
+    import game
 
 
 def clicked_info():
