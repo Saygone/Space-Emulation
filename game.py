@@ -9,9 +9,19 @@ wn.setup(1.0, 1.0)
 
 turtle.bgcolor("black")
 
-wn = Tk()
-wn.title("Справка")
-wn.geometry('370x200')
+window = Tk()
+window.title("Справка")
+window.geometry('370x200')
+
+
+def clicked():
+    import atlas
+
+
+btn1 = Button(window, text="Планеты", fg="black", font=("Ariak Bold", 15), width=20,height=1, command=clicked)
+btn1.place(x = 185, y = 100, anchor=CENTER)
+
+
 
 
 
