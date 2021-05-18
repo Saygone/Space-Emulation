@@ -1,7 +1,6 @@
 import turtle
+from tkinter import *
 from turtle import Turtle, Screen
-import tkinter
-from tkinter import*
 
 wn = turtle.Screen()
 wn.title("Solar system")
@@ -15,7 +14,7 @@ window.geometry('370x200')
 
 
 def clicked():
-    import atlas
+    pass
 
 
 btn1 = Button(window, text="Планеты", fg="black", font=("Ariak Bold", 15), width=20,height=1, command=clicked)
