@@ -10,6 +10,7 @@ def clicked():
     import game
 
 
+
 def clicked_info():
     os.system('Information.docx')
 
