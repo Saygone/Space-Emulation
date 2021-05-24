@@ -1,3 +1,4 @@
+import os
 import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
@@ -12,7 +13,7 @@ def clicked_venus():
     exec(open('info.py').read())
 
 def clicked_earth():
-    exec(open('info.py').read())
+    os.system('atlas1.py')
 
 def clicked_mars():
     exec(open('info.py').read())
@@ -34,7 +35,7 @@ def clicked_pluto():
 
 
 window = Tk()
-window.title("Space emulation")
+window.title("Атлас")
 window.geometry('850x650')
 
 canvas = tkinter.Canvas(window, height=650, width=850)
@@ -54,7 +55,7 @@ btn7 = Button(window, text="Сатурн", fg="Black", font=("Ariak Bold", 10), 
 btn8 = Button(window, text="Уран", fg="Black", font=("Ariak Bold", 10), width=10, height=4, command=clicked_uranus)
 btn9 = Button(window, text="Нептун", fg="Black", font=("Ariak Bold", 10), width=10, height=4, command=clicked_neptune)
 btn10 = Button(window, text="Плутон", fg="Black", font=("Ariak Bold", 10), width=10, height=4, command=clicked_pluto)
-btn11 = Button(window, text="Плутон", fg="Black", font=("Ariak Bold", 10), width=30, height=4, command=window.destroy)
+btn11 = Button(window, text="Закрыть", fg="Black", font=("Ariak Bold", 10), width=30, height=4, command=window.destroy)
 # Кнопка
 btn1.place(x=125, y=100, anchor=CENTER)
 btn2.place(x=325, y=100, anchor=CENTER)
