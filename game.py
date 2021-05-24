@@ -14,6 +14,8 @@ window.title("Справка")
 window.geometry('370x200')
 
 
+
+
 def clicked():
     os.system('atlas.py')
 
