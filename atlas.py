@@ -4,34 +4,34 @@ from tkinter import *
 from PIL import Image, ImageTk
 
 def clicked_sun():
-    exec(open('info.py').read())
+    os.system('sun.docx')
 
 def clicked_mercury():
-    exec(open('info.py').read())
+    os.system('merc.docx')
 
 def clicked_venus():
-    exec(open('info.py').read())
+    os.system('ven.docx')
 
 def clicked_earth():
     os.system('atlas1.py')
 
 def clicked_mars():
-    exec(open('info.py').read())
+    os.system('mars.docx')
 
 def clicked_jupiter():
-    exec(open('info.py').read())
+    os.system('jupiter.docx')
 
 def clicked_saturn():
-    exec(open('info.py').read())
+    os.system('saturn.docx')
 
 def clicked_uranus():
-    exec(open('info.py').read())
+    os.system('uran.docx')
 
 def clicked_neptune():
-    exec(open('info.py').read())
+    os.system('neptun.docx')
 
 def clicked_pluto():
-    exec(open('info.py').read())
+    os.system('pluto.docx')
 
 
 window = Tk()

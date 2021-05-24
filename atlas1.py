@@ -1,12 +1,13 @@
 import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
+import os
 
 def clicked_moon():
-    exec(open('info.py').read())
+    os.system('moon.docx')
 
 def clicked_earth():
-    exec(open('info.py').read())
+    os.system('earth.docx')
 
 
 window = Tk()
