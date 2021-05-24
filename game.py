@@ -17,13 +17,17 @@ window.geometry('370x200')
 def clicked():
     os.system('atlas.py')
 
+def clicked_menu():
+    window.destroy()
+    turtle.bye()
+    os.system('Menu.py')
+
 
 btn1 = Button(window, text="Планеты", fg="black", font=("Ariak Bold", 15), width=20,height=1, command=clicked)
 btn1.place(x = 185, y = 100, anchor=CENTER)
 
-
-
-
+btn2 = Button(window, text="Главное меню", fg="black", font=("Ariak Bold", 15), width=20,height=1, command=clicked_menu)
+btn2.place(x = 185, y = 50, anchor=CENTER)
 
 
 """Анимация движения планет"""
