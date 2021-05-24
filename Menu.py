@@ -1,14 +1,17 @@
 import tkinter
 from tkinter import *
 from PIL import Image, ImageTk
+import os
+
 
 
 def clicked():
+    window.destroy()
     import game
 
 
 def clicked_info():
-    exec(open('info.py').read())
+    os.system('Information.docx')
 
 
 window = Tk()
