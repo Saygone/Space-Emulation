@@ -1,3 +1,4 @@
+import os
 import turtle
 from tkinter import *
 from turtle import Turtle, Screen
@@ -14,7 +15,7 @@ window.geometry('370x200')
 
 
 def clicked():
-    pass
+    os.system('atlas.py')
 
 
 btn1 = Button(window, text="Планеты", fg="black", font=("Ariak Bold", 15), width=20,height=1, command=clicked)
